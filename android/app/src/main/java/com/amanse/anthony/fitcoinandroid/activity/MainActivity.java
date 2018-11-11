@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.activity;
 
 import android.Manifest;
 import android.app.AlertDialog;
@@ -23,6 +23,14 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.PopupMenu;
 
+import com.amanse.anthony.fitcoinandroid.BackendResult;
+import com.amanse.anthony.fitcoinandroid.InitialResultFromRabbit;
+import com.amanse.anthony.fitcoinandroid.R;
+import com.amanse.anthony.fitcoinandroid.ResultOfEnroll;
+import com.amanse.anthony.fitcoinandroid.fragment.LeaderboardsFragment;
+import com.amanse.anthony.fitcoinandroid.fragment.ShopFragment;
+import com.amanse.anthony.fitcoinandroid.fragment.TechFragment;
+import com.amanse.anthony.fitcoinandroid.fragment.UserFragment;
 import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;

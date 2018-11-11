@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.model;
 
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;

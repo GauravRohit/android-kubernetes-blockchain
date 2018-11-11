@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.model;
 
 import com.google.gson.annotations.SerializedName;
 
@@ -9,10 +9,10 @@ public class ContractModel {
     String sellerId;
     String userId;
     String productId;
-    String productName;
-    int quantity;
-    int cost;
-    String state;
+    public String productName;
+    public int quantity;
+    public int cost;
+    public String state;
 
     public ContractModel(String contractId, String sellerId, String userId, String productId, String productName, int quantity, int cost, String state) {
         this.contractId = contractId;

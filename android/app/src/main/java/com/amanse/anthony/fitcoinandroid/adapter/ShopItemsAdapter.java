@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.adapter;
 
 import android.app.Activity;
 import android.content.Context;
@@ -16,6 +16,10 @@ import android.view.animation.AlphaAnimation;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.amanse.anthony.fitcoinandroid.R;
+import com.amanse.anthony.fitcoinandroid.activity.QuantitySelection;
+import com.amanse.anthony.fitcoinandroid.model.ContractModel;
+import com.amanse.anthony.fitcoinandroid.model.ShopItemModel;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;

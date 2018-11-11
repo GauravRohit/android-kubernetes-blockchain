@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.amanse.anthony.fitcoinandroid.model.ContractModel;
+import com.amanse.anthony.fitcoinandroid.R;
 import com.google.gson.Gson;
 
 public class ContractDetails extends AppCompatActivity {

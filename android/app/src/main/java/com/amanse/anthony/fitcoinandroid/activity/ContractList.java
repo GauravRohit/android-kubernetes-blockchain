@@ -1,4 +1,4 @@
-package com.amanse.anthony.fitcoinandroid;
+package com.amanse.anthony.fitcoinandroid.activity;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -7,6 +7,9 @@ import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.TextView;
 
+import com.amanse.anthony.fitcoinandroid.adapter.ContractListAdapter;
+import com.amanse.anthony.fitcoinandroid.model.ContractModel;
+import com.amanse.anthony.fitcoinandroid.R;
 import com.google.gson.Gson;
 
 import java.util.ArrayList;
